@@ -3,7 +3,7 @@
     "description": "A WordPress plugin/module that provides the ability to map relationships between posts and other post types",
     "keywords": ["wordpress", "relationships"],
     "license": "GPLv2+",
-    "type": "plugin",
+    "type": "wordpress-plugin",
     "repositories": [
         {
           "type": "git",
