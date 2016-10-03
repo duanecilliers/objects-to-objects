@@ -22,9 +22,5 @@
     },
     "require-dev": {
         "voceconnect/wp-qa-suite": "dev-wp-qa-scripts"
-    },
-    "autoload": {
-        "classmap": ["src/", "admin/admin.php"],
-        "files": ["objects-to-objects.php"]
     }
 }
