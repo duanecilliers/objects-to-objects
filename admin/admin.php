@@ -10,7 +10,8 @@ class O2O_Admin {
 
 	public function init() {
 		if ( ! class_exists( 'Post_Selection_UI' ) ) {
-			@include_once(__DIR__ . '/post-selection-ui/post-selection-ui.php');
+			error_log( 'Post Selection UI is not installed. Please install it before you can use Objects to Objects. https://github.com/duanecilliers/post-selection-ui' );
+			return false;
 		}
 		Post_Selection_UI::init();
 		add_action( 'add_meta_boxes', array( $this, '__action_add_meta_box' ), 10, 2 );
